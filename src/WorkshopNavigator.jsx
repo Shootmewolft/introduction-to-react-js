@@ -67,12 +67,6 @@ function WorkshopNavigator() {
 
       <main className="workshop-content">{selectedClass?.component}</main>
 
-      <footer className="workshop-footer">
-        <p>
-          React Workshop - Class {currentClass} of {classes.length}
-        </p>
-      </footer>
-
       <style>{`
         .workshop-navigator {
           min-height: 100vh;
